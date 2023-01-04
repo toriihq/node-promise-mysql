@@ -1,7 +1,7 @@
 {
-  "name": "promise-mysql",
+  "name": "@toriihq/promise-mysql-native",
   "version": "5.2.0",
-  "description": "A bluebird wrapper for node-mysql",
+  "description": "A Promise wrapper for node-mysql",
   "main": "index.js",
   "scripts": {
     "tap": "tap",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukeb-uk/node-promise-mysql.git"
+    "url": "https://github.com/toriihq/node-promise-mysql"
   },
   "keywords": [
     "promise",
@@ -40,8 +40,6 @@
   },
   "dependencies": {
     "@types/mysql": "^2.15.2",
-    "@types/bluebird": "^3.5.26",
-    "bluebird": "^3.5.1",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
